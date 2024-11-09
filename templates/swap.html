@@ -1,0 +1,32 @@
+{% load usd %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <center>
+        <h1>User defined filters</h1>
+        <h1>{{data}}</h1>
+        <h1>{{data|swapping}}</h1>
+        {% comment %} <h1>{{data|splitting:'r'}}</h1> {% endcomment %}
+    
+        <h1>{{data|split:'r'}}</h1>
+        <h1>{{data|split:' '}}</h1>
+        <h1>{{data|index:'r'}}</h1>
+        <h1>{{data|index:'M'}}</h1>
+        <h1>{{data|find:'r'}}</h1>
+        <h1>{{data|find:'z'}}</h1>
+        <h1>{{l}}</h1>
+        <h1>{{l|append:28}}</h1>
+        {% comment %} <h1>{{l[::-1]}}</h1> {% endcomment %}
+        <h1>{{l}}</h1>
+
+        
+    
+    </center>
+</body>
+</html>
